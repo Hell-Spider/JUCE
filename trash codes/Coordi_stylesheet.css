@@ -1,0 +1,28 @@
+.container{
+	margin:0px auto;
+	width: 1200px;
+}
+.container1{
+	margin: 0px auto;
+	width: 1000px;
+	height: 500px;
+}
+#section-2{ 
+    overflow: hidden; 
+    margin-top: 0em; 
+    padding-top: 0em; 
+    border-top: 1px solid rgba(0, 0, 0, 0.7); 
+    text-align: center; 
+} 
+.row #column1,  
+.row #column2{ 
+        float: left; 
+        width: 400px; 
+        padding: 20px 40px 80px 40px; 
+} 
+.column-title h2{ 
+    margin: 2em 0em; 
+    font-size: 1.6em; 
+    font-weight: 700; 
+    font-color: blue;
+} 

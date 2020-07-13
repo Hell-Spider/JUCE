@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	
+ 	<title>
+ 		First Web Page
+ 	</title>
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+ 	<style>
+ 		.container{
+ 			margin: 0px auto;
+ 			width: 1200px;
+ 		}
+ 		#top-header{
+ 			text-align: center;
+ 			height: 60px;
+ 		}
+ 		#logo{
+ 			float: left;
+ 			margin: none;
+ 			padding: none;
+ 		}
+
+ 		#menu{ 
+    float: right; 
+    width: 70%; 
+    height: 100%; 
+    margin: none; 
+} 
+      
+#menu ul{ 
+    text-align: center; 
+    float: right; 
+    margin: none; 
+    background: #0074D9; 
+} 
+      
+#menu li{ 
+    display: inline-block; 
+    padding: none; 
+    margin: none; 
+} 
+      
+#menu li a, #menu li span{ 
+    display: inline-block; 
+    padding: 0em 1.5em; 
+    text-decoration: none; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    line-height: 60px; 
+} 
+      
+#menu li a{ 
+          
+    color: #FFF; 
+} 
+      
+#menu li:hover a, #menu li span{ 
+    background: #FFF; 
+    color: #0074D9; 
+    border-left: 1px solid #0074D9; 
+    text-decoration: none; 
+} 
+#header-image-menu{
+	top: 5px;
+	position: relative;
+}
+#header-image-menu img{
+	width: 100%;
+	margin: none;
+	padding: none;
+	border-collapse: collapse;
+}
+#welcome{
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+}
+#welcome .title{ 
+    margin-top: 10px; 
+    padding: 10px; 
+    text-align: center; 
+} 
+  
+#welcome p{ 
+    margin-bottom: 20px; 
+    text-align: center; 
+} 
+#section-2{ 
+    overflow: hidden; 
+    margin-top: 2em; 
+    padding-top: 1em; 
+    border-top: 1px solid rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+} 
+.row #column1,  
+.row #column2{ 
+        float: left; 
+        width: 500px; 
+        padding: 80px 40px 80px 40px; 
+} 
+.column-title h2{ 
+    margin: 2em 0em; 
+    font-size: 1.6em; 
+    font-weight: 700; 
+} 
+.company-details{ 
+    overflow: hidden; 
+    padding: 3em 0em; 
+    background: #E3F0F7; 
+    text-align: center; 
+    margin-top: 5em; 
+} 
+  
+#footer #col1, 
+#footer #col2, 
+#footer #col3{ 
+    float: left; 
+    width: 320px; 
+    padding: 0px 40px 0px 40px; 
+} 
+      
+#footer #icon{ 
+    display: block; 
+    margin-bottom: 1em; 
+    font-size: 3em; 
+} 
+  
+/*** Adding Styles to Copyright Div ***/
+.copyright 
+{ 
+    overflow: hidden; 
+    padding: 3em 0em; 
+    border-top: 20px solid rgba(255, 255, 255, 0.08); 
+    text-align: center; 
+    background: #FFFF55;
+} 
+      
+.copyright p 
+{ 
+    letter-spacing: 1px; 
+    font-size: 0.90em; 
+    color: rgba(0, 0, 0, 0.9); 
+} 
+      
+.copyright a 
+{ 
+    text-decoration:none; 
+    color: rgba(255, 255, 255, 0.6); 
+} 
+  
+/* Styling Social Icons */
+ul.contact{ 
+    margin: 0; 
+    padding: 2em 0em 0em 0em; 
+    list-style: none; 
+} 
+      
+ul.contact li{ 
+    display: inline-block; 
+    padding: 0em 0.10em; 
+    font-size: 1em; 
+} 
+  
+ul.contact li a{ 
+    color: #FFF; 
+    display: inline-block; 
+    background: #4C93B9; 
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center; 
+} 
+ 	</style>
+ </head>
+
+ <body> 
+ 	<!--header menu of the page-->
+ 	<header class="container" style="overflow: hidden;">
+ 		<!--top header menu containing
+ 		    logo and navigation bar-->
+ 	    <div id="top-header">
+            <!--logo-->
+ 		    <div id="logo">
+               <img src="IMAGES/Jadavpur-University-Logo.png" width="200px" height="100px" alt="DEPARTMENT OF CIVIL ENGINEERING">
+ 		    </div>
+            <!--navigation bar-->
+ 		    <nav id="menu">
+ 		       <ul>
+ 		       	  <li class="active"><a href="#">Home</a></li>
+ 		       	  <li><a href="#">People</a></li>
+ 		       	  <li><a href="#">Academics</a></li>
+ 		       	  <li><a href="#">Placement</a></li>
+ 		       	  <li><a href="#">Student Activities</a></li>
+ 		       </ul>
+ 		    </nav>
+ 		     <h3 style="font-family: Times New Roman; color: blue;padding: 30px;text-align: left;"><b>Department of Civil Engineering</b></h3>
+ 	    </div>
+
+ 	    <!--image menu in header to contain an image and 
+ 	        a sample text over that image-->
+ 	     <div id="header-image-menu">
+              <img src="IMAGES/prayukti_bhavan.png" >
+ 	     </div>
+
+ 	</header>
+    <!--main contnt between header and footer-->
+ 	<main>
+ 		<!--section 1-->
+ 		<section>
+ 			<div id="welcome">
+ 				<h2 class="title">Welcome To Civil Engineering Department</h2>
+ 				<h3 class="title">About Us</h3>
+ 			    <p>The <b>Civil Engineering Department</b> started in the year 1956. In last 44 years, the department has earned a high reputation. Nearly 5000 graduates of this department are serving the profession today around the globe. Apart from teaching and research, the symposia, short-term courses are provided. The department extends consultancy and testing services to the industry in different projects of national importance. The faculty members are known for their outstanding contribution to the discipline. A good number of Ph.D. students are working at present in different sponsored projects. At present, the department is involved in many prestigious projects as well as the department has sophisticated and computer controlled highly profile laboratory facilities. It also houses different audio-visual facilities as modern aids of teaching. </p>
+ 			    <br/>
+ 			    <h3 class="title">Vision of the Department</h3>
+ 			    <p>The department is committed to excellence in engineering education, research, and public service so as to ensure sustainable prosperity and quality of life.</p>
+ 			    <br/>
+ 			    <h3 class="title">Mission of the Department</h3>
+ 			    <ul>
+ 			    	<li><p style="text-align: left;">To develop requisite potential for becoming highly proficient Civil Engineering professionals, and to render them ready for industry, further study and life-long learning </p></li>
+ 			    	<li><p style="text-align: left;">To foster necessary intellectual growth of the students so that they would become productive citizen to dedicate their service towards humanity</p></li>
+ 			    	<li><p style="text-align: left;">To provide a dynamic process of learning environment that emphasizes open-ended design, problem-solving skills, team work, communication, leadership skills and dignity</p></li>
+ 			    	<li><p style="text-align: left;">To groom the learners as highly capable pool of human resource for taking up new challenges and negotiating ventures for building up a sustainable world</p></li>
+ 			    	<li><p style="text-align: left;">To nurture a diverse community of scholars, who, through motivation and acquaintance of knowledge, are prepared to lead management and decision-making both inside and outside the realms of Civil Engineering </p></li>
+ 			    </ul>
+ 		</section>
+
+ 		<!--section 2-->
+ 		<section class="container" id="section-2">
+ 			<div class="row">
+ 				<div id="column1">
+ 					<div class="column-title">
+ 						<h3>Program Educational Objectives</h3>
+ 					</div>
+ 					<ul>
+ 						<li><p style="text-align: left;"><b>PEO 1:</b> Contribute actively in a professional career as civil engineer or pursue advanced studies in diverse fields of engineering and management</p></li>
+ 						<li><p style="text-align: left;"><b>PEO 2:</b> Integrate and employ their knowledge of science, mathematics, and engineering in civil engineering practice, research, and management as well as other professional fields such as arbitration, finance</p></li>
+ 						<li><p style="text-align: left;"><b>PEO 3:</b> Lead organizations that focus on advanced problem solving for complex systems in multidisciplinary settings</p></li> 
+ 						<li><p style="text-align: left;"><b>PEO 4:</b> Remain ethically engaged in a wide variety of organizations or start-up activities that require a diversity of thought, creativity, and curiosity to meet the challenges posed by a the rapidly changing world</p></li>
+ 					</ul>	
+ 				</div>
+ 				<div id="column2">
+ 					<div class="column-title">
+ 						<h3>Program Specific Outcomes</h3>
+ 					</div>
+ 					<ul>
+ 						<li><p style="text-align: left;"><b>PSO1: Industrial Interaction:</b> Develop management and leadership quality through industrial exposure</p></li>
+ 						<li><p style="text-align: left;"><b>PSO2: Creating Social Awareness:</b> Acquire and disseminate knowledge continuously to resolve real-life Civil Engineering problems to ensure wellbeing for community</p></li>
+ 						<li><p style="text-align: left;"><b>PSO3: Optimum Resource Utilisation:</b> Optimize and recycle resources while planning Civil Engineering Projects </p></li> 
+ 					</ul>	
+ 				</div>
+ 			</div>
+ 		</section>
+ 	</main>
+
+    <!--footer menu-->
+    <footer id="footer">
+       <!-- Company Details -->
+    <!-- 1. Address  
+         2. Contact Number 
+         3. Enquiry Mail  
+    -->
+    <div class="company-details"> 
+        <div class="row"> 
+            <div id ="col1"> 
+                <span id = "icon" class="fa fa-map-marker"></span> 
+                      
+                <span> 
+                    188, Raja S.C.Mallick Rd, 
+                    <br />Kolkata-700032
+                </span> 
+            </div> 
+                  
+            <div id ="col2"> 
+                <span id="icon" class="fa fa-phone"></span> 
+  
+                <span> 
+                    Telephone: +91-* * * * * * * * * * 
+                </span> 
+            </div> 
+                      
+            <div id ="col3"> 
+                <span id="icon" class="fa fa-envelope"></span> 
+                <span>xyz@gmail.com</span> 
+            </div> 
+        </div> 
+    </div> 
+              
+    <!-- Copyright Section -->
+    <div class="copyright"> 
+        <p>©  All rights reserved | JU-Civil Engineering.</p> 
+      
+        <ul class="contact"> 
+            <li> 
+                <a href="#" class="fa fa-facebook"> 
+                    <span></span> 
+                </a> 
+            </li> 
+        </ul> 
+    </div> 
+       
+    </footer>
+ </body>
+</html>

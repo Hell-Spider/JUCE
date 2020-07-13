@@ -1,0 +1,37 @@
+.container{
+ 			margin: 0px auto;
+ 			width: 1200px;
+ 		}
+#section-2{ 
+    overflow: hidden; 
+    margin-top: 2em; 
+    padding-top: 0em; 
+    border-top: 1px solid rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+} 
+.row #column1,  
+.row #column2{ 
+        float: left; 
+        width: 500px; 
+        padding: 10px 40px 80px 40px; 
+} 
+.column-title h2{ 
+    margin: 2em 0em; 
+    font-size: 1.6em; 
+    font-weight: 700; 
+} 
+
+table{
+    font-family: Calibri;
+    color: black;
+    font-size: 14pt;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left; 
+    background-color: slateblue;
+    border-collapse: collapse;
+    border:2px solid navy;
+}
+table.inner{
+    border:0px;
+}

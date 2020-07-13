@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Our Alumni Page</title>
+	<link rel="stylesheet" type="text/css" href="Alumni.css">
+</head>
+
+<body>
+
+	<header style="background-color: lightgreen;">
+		<h1 style="text-align: center;"><b>OUR ALUMNI</b></h1>
+	</header>
+    <br/>
+
+	<main>
+
+		<section class="container" id="section-2">
+
+            <!-- Alumni List since 1980-->
+ 			<div class="row">
+ 				<div id="column1">
+ 					<div class="column-title">
+ 						<h2 style="font-size: 27pt;">Alumni List</h2>
+ 					</div>
+ 					<br/>
+                         <b style="font-size: 13pt">Batch Year : </b>
+                         <select name="Passout_year" id="Passout_year">
+                            <option value="-1">Year</option>
+                                             <option value="2019">2019</option>
+                                             <option value="2018">2018</option>
+                                             <option value="2017">2017</option>
+                                             <option value="2016">2016</option>
+                                             <option value="2015">2015</option>
+                                             <option value="2014">2014</option>
+                                             <option value="2013">2013</option>
+                                             <option value="2012">2012</option>
+                                             <option value="2011">2011</option>
+                                             <option value="2010">2010</option>
+                                             <option value="2009">2009</option>
+                                             <option value="2008">2008</option>
+                                             <option value="2007">2007</option>
+                                             <option value="2006">2006</option>
+                                             <option value="2005">2005</option>
+                                             <option value="2004">2004</option>
+                                             <option value="2003">2003</option>
+                                             <option value="2002">2002</option>
+                                             <option value="2001">2001</option>
+                                             <option value="2000">2000</option>  
+                         </select>
+ 						
+ 				</div>
+
+                <!--Alumni Registration page-->
+ 				<div id="column2">
+ 					<div class="column-title">
+ 						<h2 style="font-size: 27pt;">Alumni Registration Page</h2>
+ 					</div>
+ 					<br/>
+                    <form action="#" method="#">
+                    	<table align="center" cellpadding="10">
+                    		
+                    		<!--Batch-->
+                    		<tr>
+                    			<td>
+                    				<b>Batch :</b> 
+                    			</td>
+                    			<td>
+                    				<select name="Passout_year" id="Passout_year">
+                    					<option value="-1">Year</option>
+                    					<option value="2019">2019</option>
+                    					<option value="2018">2018</option>
+                    					<option value="2017">2017</option>
+                    					<option value="2016">2016</option>
+                    					<option value="2015">2015</option>
+                    					<option value="2014">2014</option>
+                    					<option value="2013">2013</option>
+                    					<option value="2012">2012</option>
+                    					<option value="2011">2011</option>
+                    					<option value="2010">2010</option>
+                    					<option value="2009">2009</option>
+                    					<option value="2008">2008</option>
+                    					<option value="2007">2007</option>
+                    					<option value="2006">2006</option>
+                    					<option value="2005">2005</option>
+                    					<option value="2004">2004</option>
+                    					<option value="2003">2003</option>
+                    					<option value="2002">2002</option>
+                    					<option value="2001">2001</option>
+                    					<option value="2000">2000</option>
+                    				</select>
+                    			</td>
+                    		</tr>
+
+                    		<!--Name of the ALumni-->
+                    		<tr>
+                    			<td>
+                    				<b>Name :</b>
+                    			</td>
+                    			<td><input type="text" name="Name" maxlength="50"/><br>(max 50 characters a-z & A-Z)</td>
+                    		</tr>
+
+                    		<!--Mail id of the Alumni-->
+                    		<tr>
+                    			<td>
+                    				<b>Email ID :</b>
+                    			</td>
+                    			<td><input type="text" name="Email_ID" maxlength="100"/></td>
+                    		</tr>
+
+                    		<!--Mobile Number-->
+                    		<tr>
+                    			<td>
+                    				<b>Mobile Number :</b>
+                    			</td>
+                    			<td><input type="Number" name="Mobile_Number" maxlength="10"/> (10 Digit Number)</td>
+                    		</tr>
+
+                    		<!--Gender-->
+                    		<tr>
+                    			<td>
+                    				<b>Gender :</b>
+                    			</td>
+                    			<td>
+                    				Male <input type="radio" name="Gender" value="Male"/>
+                    				Female <input type="radio" name="Gender" value="Female"/>
+                    			</td>
+                    		</tr>
+
+                    		<!--Class Roll Number-->
+                    		<tr>
+                    			<td><b>Class Roll No. :</b></td>
+                    			<td>
+                    				<input type="Number" name="Class_Roll" maxlength="12">
+                    			</td>
+                    		</tr>
+
+                    		<!--Submit and Reset-->
+                    		<tr>
+                    			<td colspan="2" align="center">
+                    				<input type="Submit" value="Submit">
+                    				<input type="Reset" value="Reset">
+                    			</td>
+                    		</tr>
+
+                    	</table>
+                    </form>
+ 						
+ 				</div>
+ 			</div>
+ 		</section>
+
+	</main>
+
+</body>
+</html>
