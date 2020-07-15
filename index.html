@@ -4,7 +4,7 @@
 	<title>JUCE</title>
 	<link rel="stylesheet" href="CSS code/Home_page_stylesheet.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
 		<div id="top-header">
 			<!--logo-->
 			<div id="logo">
-				<img src="IMAGES/Jadavpur-University-Logo.png" width="200px" height= "100px" alt="Department of Civil Engineering">
+				<img src="IMAGES/Jadavpur-University-Logo.png" width="200px" height= "80px" alt="Department of Civil Engineering">
 			</div>
 			<!--responsive navigation bar-->
 			<div class="topnav" id="mytopnav">
@@ -66,7 +66,7 @@
                     </div>
                     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
-                 <h2 style="font-family: Times New Roman; color: black;padding: 20px;text-align:left;"><b><i>Department of</i> <br/><i>Civil</i><i> Engineering</i></b></h2>
+                 <h2 style="font-family: Times New Roman; color: black;padding:10px;text-align:left;"><b><i>Department of</i> <br/><i>Civil</i><i> Engineering</i></b></h2>
 				<script>
                  function myFunction() {
                  var x = document.getElementById("myTopnav");
@@ -81,11 +81,49 @@
         </div>
 	 <!--image menu in header to contain an image and 
  	        a sample text over that image-->
- 	     <div id="header-image-menu">
-              <img src="IMAGES/prayukti_bhavan.png" >
- 	     </div>
+ <div class="w3-content w3-section" style="max-width:1200px;height: 350px;">
+  <img class="myslides" src="IMAGES/b.png" style="width:700px;height: 350px">
+  <img class="myslides" src="IMAGES/c.png" style="width:700px;height: 350px">
+  <img class="myslides" src="IMAGES/a.png" style="width:700px;height: 350px">
+  <div style="padding-bottom: 12px; text-align: center;float: right;width: 470px;border: 2px solid black;display: inline-block;margin-left: 10px;height: 50px;background-color: khaki;border-radius: 5px;"><h2 style="padding-top: 0px;"><i>BULLETIN</i></h2></div>
+  <div style="float: right;width: 470px;border: 2px solid black;display: inline-block;margin-left: 10px;height: 280px;background-color:rgba(255,0,0,0.2);overflow: auto;border-radius:5px;">
+       <div class="content" style="text-align: left;font-size: 20px;">
+         <ul>
+          
+         </ul>
+       </div>
+  </div>
+ </div>
 
- 	</header>
+<script>
+window.onscroll = function() {unction()};
+var mm= document.getElementById("mm");
+var sticky = mm.offsetTop;
+function unction() {
+  if (window.pageYOffset >= sticky) {
+    mm.classList.add("sticky")
+  } else {
+    mm.classList.remove("sticky");
+  }
+}
+</script>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("myslides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</header>
     <!--main contnt between header and footer-->
  	<main>
  		<!--section 1-->
@@ -137,13 +175,13 @@
  	</main>
 
     <!--footer menu-->
-    <footer id="footer">
+    <footer id="footer" class="container" style="padding-top: 0px; height: 200px;">
        <!-- Company Details -->
     <!-- 1. Address  
          2. Contact Number 
          3. Enquiry Mail  
     -->
-    <div class="company-details"> 
+    <div class="company-details" style="height: 100px;padding-top: 20px;"> 
         <div class="row"> 
             <div id ="col1"> 
                 <span id = "icon" class="fa fa-map-marker"></span> 
@@ -170,14 +208,11 @@
     </div> 
               
     <!-- Copyright Section -->
-    <div class="copyright"> 
-        <p>©  All rights reserved | JU-Civil Engineering.</p> 
-      
-        <ul class="contact"> 
+    <div class="copyright" style="height: 100px;"> 
+        <p><h3>©  All rights reserved | JU-Civil Engineering</h3></p> 
+        <ul class="contact" style="padding-top: 2px;"> 
             <li> 
-                <a href="#" class="fa fa-facebook"> 
-                    <span></span> 
-                </a> 
+                <a href="#" class="fa fa-facebook"></a> 
             </li> 
         </ul> 
     </div>  
